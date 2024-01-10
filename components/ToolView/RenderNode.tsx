@@ -2,10 +2,9 @@ import { useNode, useEditor, ROOT_NODE } from "@craftjs/core";
 import React, { useEffect, useRef, useCallback, ReactNode } from "react";
 import ReactDOM, { createPortal } from "react-dom";
 import styled from "styled-components";
-import Delete from "../../../public/icons/delete.svg";
-
-import ArrowUp from "../../../public/icons/arrow-up.svg";
-import Move from "../../../public/icons/button.svg";
+import Delete from "../../public/icons/delete.svg";
+import ArrowUp from "../../public/icons/arrow-up.svg";
+import Move from "../../public/icons/move.svg";
 
 const IndicatorDiv = styled.div`
   height: 30px;

@@ -8,13 +8,13 @@
  */
 import React from "react";
 
-import { capitalize, weightDescription } from "../../../../utils/text";
+import { Space } from "antd";
+import { capitalize, weightDescription } from "@/utils/text";
 import {
-  ToolbarSection,
   ToolbarItem,
   ToolbarRadio,
-} from "../../../base/ToolView/Toolbar";
-import { Space } from "antd";
+  ToolbarSection,
+} from "@/components/Toolbar";
 
 export const TextSettings = () => {
   return (

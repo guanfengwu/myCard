@@ -1,9 +1,5 @@
+import { ToolbarItem, ToolbarRadio, ToolbarSection } from "@/components/Toolbar";
 import React from "react";
-import {
-  ToolbarItem,
-  ToolbarSection,
-  ToolbarRadio,
-} from "../../ToolView/Toolbar";
 
 export const ContainerSettings = () => {
   return (

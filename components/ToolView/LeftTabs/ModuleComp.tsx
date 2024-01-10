@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import { Tooltip } from "antd";
-import { Button, Container, Text } from "@/components/base/Selector";
-import TypeSvg from "../../../../../public/icons/toolbox/text.svg";
-import ButtonSvg from "../../../../../public/icons/toolbox/button.svg";
-import SquareSvg from "../../../../../public/icons/toolbox/rectangle.svg";
+import { Button, Container, Text } from "@/components/Selector";
+import TypeSvg from "../../../public/icons/toolbox/text.svg";
+import ButtonSvg from "../../../public/icons/toolbox/button.svg";
+import SquareSvg from "../../../public/icons/toolbox/rectangle.svg";
 
 const ToolboxDiv = styled.div<{ enabled: boolean }>`
   transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);

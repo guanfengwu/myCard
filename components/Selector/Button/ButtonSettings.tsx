@@ -1,23 +1,16 @@
-/*
- * @Author: WGF
- * @Date: 2024-01-03 21:00:08
- * @LastEditors: WGF
- * @LastEditTime: 2024-01-05 18:15:20
- * @Description: 
- * @FilePath: /landing/components/selectors/Button/ButtonSettings.tsx
- */
-import React from 'react';
-import { ToolbarItem, ToolbarRadio, ToolbarSection } from '../../ToolView/Toolbar';
-
-
-
+import {
+  ToolbarItem,
+  ToolbarRadio,
+  ToolbarSection,
+} from "@/components/Toolbar";
+import React from "react";
 
 export const ButtonSettings = () => {
   return (
     <React.Fragment>
       <ToolbarSection
         title="Colors"
-        props={['background', 'color']}
+        props={["background", "color"]}
         summary={({ background, color }: any) => {
           return (
             <div className="flex flex-row-reverse">
@@ -51,7 +44,7 @@ export const ButtonSettings = () => {
       </ToolbarSection>
       <ToolbarSection
         title="Margin"
-        props={['margin']}
+        props={["margin"]}
         summary={({ margin }: any) => {
           return `${margin[0] || 0}px ${margin[1] || 0}px ${margin[2] || 0}px ${
             margin[3] || 0

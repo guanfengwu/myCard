@@ -9,7 +9,7 @@
 import React, { ReactNode } from "react";
 import styled from "styled-components";
 
-import Arrow from "../../../../../public/icons/arrow.svg";
+import Arrow from "../../../public/icons/arrow.svg";
 
 const SidebarItemDiv = styled.div<{ visible?: boolean; height?: string }>`
   height: ${(props) =>
